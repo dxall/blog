@@ -5,6 +5,7 @@ export default defineConfig({
   title: "dx blog",
   description: "fe question blog",
   lastUpdated: true,
+  outDir: "./dist",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

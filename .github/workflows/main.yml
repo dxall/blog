@@ -36,5 +36,5 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_PRIVATE_KEY }}
-          source: /.vitepress/dist
+          source: /home/runner/work/blog/blog/.vitepress/dist
           target: /home/ubuntu/blog/.vitepress/dist

@@ -38,5 +38,5 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SERVER_PRIVATE_KEY }}
           source: ./.vitepress/dist
-          target: /home/ubuntu/blog/.vitepress/dist
+          target: ${{ secrets.TARGET }}
           use_insecure_cipher: true

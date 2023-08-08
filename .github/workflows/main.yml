@@ -39,3 +39,4 @@ jobs:
           key: ${{ secrets.SERVER_PRIVATE_KEY }}
           source: /home/runner/work/blog/blog/.vitepress/dist
           target: /home/ubuntu/blog/.vitepress/dist
+          use_insecure_cipher: true

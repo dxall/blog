@@ -9,3 +9,4 @@ yarn-error.log*
 .uploadrc
 .DS_Store
 /.vitepress/dist
+/.vitepress/cache

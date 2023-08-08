@@ -28,9 +28,6 @@ jobs:
       - name: Build
         run: pnpm run docs:build
         
-      - name: List files in working directory
-        run: cd .vitepress/dist/ && ls -a
-        
       - name: Deploy to server
         uses: appleboy/scp-action@master
         with:

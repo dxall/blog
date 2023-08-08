@@ -24,7 +24,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/dxall' }
+      { icon: 'github', link: 'https://github.com/dxall/blog' }
     ],
   }
 })

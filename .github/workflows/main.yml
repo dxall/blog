@@ -15,7 +15,7 @@ jobs:
       - name: use pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 6.32.9
+          version: 7.29.3
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -23,10 +23,10 @@ jobs:
           node-version: 18.6.0
           cache: 'pnpm'
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build
-        run: pnpm run docs:build
+        run: pnpm run build
         
       - name: Deploy to server
         uses: appleboy/scp-action@master
